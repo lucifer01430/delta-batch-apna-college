@@ -8,7 +8,7 @@ A professional portfolio and practice project for Apna College's Delta Batch, sh
 
 ---
 
-## � Overview
+## Overview
 
 This repository contains:
 - A professional index page (`index.html`) introducing Harsh Pandey and providing quick access to all HTML practice files.
@@ -16,7 +16,14 @@ This repository contains:
 - Minimal CSS and Bootstrap for a clean, modern look.
 
 ---
+---
 
+
+## 📸 Live Demo
+
+🚀 [Try it live!](https://lucifer01430.github.io/delta-batch-apna-college/)
+
+---
 ## ✨ Features
 
 - Personal profile and education overview
