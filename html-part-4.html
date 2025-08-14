@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Part - 4</title>
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon">
+</head>
+
+<body>
+<center><h1>Tables In HTML</h1></center> <hr>
+
+<!-- SIMPLE TABLE -->
+ <table border="black">
+    <caption>Student Data</caption>
+    <thead>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Section</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Harsh</td>
+            <td>12</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rohan</td>
+            <td>12</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sita</td>
+            <td>11</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Gita</td>
+            <td>10</td>
+            <td>D</td>
+        </tr>
+    </tbody>
+ </table>
+<hr>
+
+ <!-- COLSPAN & ROWSPAN Attributes -->
+  <table border="black">
+    <caption>Food Menu</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Item</th>
+            <th colspan="2">Price</th>
+        </tr>
+        <tr>
+            <th>INR</th>
+            <th>USD</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Burger</td>
+            <td>100</td>
+            <td>1.5</td>
+        </tr>
+        <tr>
+            <td>Pizza</td>
+            <td>200</td>
+            <td>3.0</td>
+        </tr>
+        <tr>
+            <td>Sandwich</td>
+            <td>50</td>
+            <td>0.75</td>  
+        </tr>
+        <tr>
+            <td>Salad</td>
+            <td>30</td>
+            <td>0.45</td>
+        </tr>
+    </tbody>
+  </table>
+
+    <hr>
+
+    <table border="black">
+        <caption>A test table with merged cells</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red Eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>180cm</td>
+                <td>85kg</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td >Females</td>
+                <td>165cm</td>
+                <td>60kg</td>
+                <td>30%</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <hr>
+    <footer>
+        <center>
+            <p style="font-size: 14px; color: #555; margin: 5px 0;">
+                &copy; 2025 Harsh | Frontend Web Developer
+            </p>
+            <p style="font-size: 13px; color: #777; margin: 5px 0;">
+                Practicing in Delta Batch (College) | All codes will be uploaded on my GitHub
+            </p>
+            <p style="margin: 5px 0;">
+                <a href="https://github.com/lucifer01430" target="_blank"
+                    style="text-decoration: none; color: #0073e6;">
+                    Visit My GitHub
+                </a>
+            </p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
