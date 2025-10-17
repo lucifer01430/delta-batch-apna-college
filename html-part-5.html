@@ -14,14 +14,24 @@
     </center>
     <hr>
     <form action="action">
-        <label for="username">Username : </label> <input type="text" id="username " placeholder="Enter Username"> <br><br>
+        <fieldset>
+            <legend>Login form</legend> <br>
+            <label for="username">Username : </label> <input type="text" id="username " placeholder="Enter Username" name="username">
+            <br><br>
 
-       <label for="paswword"> Password :</label> <input type="password" placeholder="Enter Password"> <br><br>
-        Number :  <input type="number" placeholder="Enter Number"> <br><br>
-        Time :  <input type="time"> <br><br>
-        Color : <input type="color"> <br><br>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+            <label for="paswword"> Password :</label> <input type="password" id="password" placeholder="Enter Password" name="password">
+            <br><br>
+
+            <!-- Number : <input type="number" placeholder="Enter Number"> <br><br>
+
+            Time : <input type="time"> <br><br>
+
+            Color : <input type="color"> <br><br> -->
+
+            <button type="submit">Submit</button> 
+            <!-- <button type="reset">Reset</button> -->
+        </fieldset>
+
 
 
     </form>
